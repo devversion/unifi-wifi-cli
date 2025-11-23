@@ -74,7 +74,7 @@ def control_wifi(
             writable=True,
             help="Disable the device. Use --no-disabled to enable it.", rich_help_panel="Wifi Control"
         ),
-    ] = False,
+    ],
 ):
     """Set the disabled state of all devices."""
     print(
